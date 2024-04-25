@@ -1,0 +1,24 @@
+.site-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.site-logo-item {
+  height: var(--spacing-3);
+  width: var(--spacing-3);
+  border-radius: 100%;
+}
+
+.site-logo .site-logo-item:nth-child(3n+1) {
+  background-color: rgb(var(--color-red-400));
+}
+
+.site-logo .site-logo-item:nth-child(3n+2) {
+  background-color: rgb(var(--color-amber-400));
+}
+
+.site-logo .site-logo-item:nth-child(3n+3) {
+  background-color: rgb(var(--color-green-400));
+}

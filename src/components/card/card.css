@@ -1,0 +1,29 @@
+.card {
+  padding: var(--spacing-4);
+  border-radius: var(--radius);
+  background-color: rgb(var(--color-white));
+  border: 1px solid rgb(var(--color-zinc-300));
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+  min-width: 200px;
+  min-height: 200px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: var(--font-size-lg);
+  font-weight: 550;
+}
+
+.card-img {
+  max-width: 250px;
+  border-radius: var(--radius-md);
+}
+
+.card-description {
+  font-size: var(--font-size-sm);
+}
